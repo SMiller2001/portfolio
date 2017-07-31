@@ -56,9 +56,9 @@ div.tab button.active {
 <p>Click on the different tabs to see new things!</p>
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Portfolio</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Favs</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  <button class="tablinks" onclick="opentab(event, 'Portfolio')" id="defaultOpen">Portfolio</button>
+  <button class="tablinks" onclick="opentab(event, 'Links')">Favs</button>
+  <button class="tablinks" onclick="opentab(event, 'Favs')">Favs</button>
 </div>
 
 <div id="Portfolio!!" class="tabcontent">
@@ -69,18 +69,21 @@ div.tab button.active {
 
 <div id="Favs" class="tabcontent">
   <h3>Favs!!</h3>
-  <p>Paris is the capital of France.</p> 
-</div>
-
-<div id="Links" class="tabcontent">
-  <h3>Links!!</h3>
-  <p><p>My Favorite food is pasta.</p>
+  <p>><p>My Favorite food is pasta.</p>
   <p>My Favorite animals are pandas. </p>
   <p>My Favorite Performer is Ruth B.</p>
   <p>My Favorite Songs is World War 3 by Ruth B, Sandcastle Kingdoms, and Branded, both by Nathan Sharp. 
   <p>My Favorite Book is The Wizard of Oz by L. Frank Baum</p>
   <p>My Favorite Movie is Captain America: Civil War</p>
-  <p>My Favorite Colors are Purple, Blue, Gold, and Silver. </p></p>
+  <p>My Favorite Colors are Purple, Blue, Gold, and Silver. </p> 
+</div>
+
+<div id="Links" class="tabcontent">
+  <h3>Links!!</h3>
+  <p <p><a href="https://www.buzzfeed.com/?utm_term=.yfBneXyPj#.rpvNXAo5j">This is a link to one of my favorite websites. </p>
+  <p><a href="https://twitter.com/american_pxyco">Twitter. </p>
+  <p><a href="https://www.instagram.com/american_psyco/?hl=en">Instagram</p>
+  <p><a href="Core4Template.html">Core4 Template</p>
 </div>
 
 <script>
@@ -101,13 +104,7 @@ function opentab(evt, tabName) {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
-     
-     
-  <h2 style="text-align:center;"><span onmouseover="this.style.color='Blue'">Links!!</span>
-  </h2>
-  <p><a href="https://www.buzzfeed.com/?utm_term=.yfBneXyPj#.rpvNXAo5j">This is a link to one of my favorite websites. </p>
-  <p><a href="https://twitter.com/american_pxyco">Twitter. </p>
-  <p><a href="https://www.instagram.com/american_psyco/?hl=en">Instagram</p>
-  <p><a href="Core4Template.html">Core4 Template</p>
+
+ 
   </body>
 </html> 
